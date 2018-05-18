@@ -1,8 +1,19 @@
 *{
   margin:0;
   padding: 0;
+  box-sizing: border-box;
 }
-
+.main1{
+  float: left;
+  width: 50%;
+  /* border: 2px solid black; */
+}
+.main{
+  float: right;
+  width: 50%;
+  /* height: 50%; */
+  /* border: 2px solid red; */
+}
 #nav {
   height: 120px;
   width: 100%;
@@ -53,22 +64,22 @@
     margin-top: 20px;
   }
   #modulob {
-    width: 75%;
+    /* width: 75%; */
     background-color: #ffffff;
     margin: auto;
     padding:200px 150px 50px 150px;
     overflow: auto;
   }
-#modulob .whalepic{
+ #modulob .whalepic{
     border-radius: 50%;
   }
-  #fotodos {
+  /* #fotodos {
     width: 50%;
     float: right;
     margin-right: 0px;
     padding-left: 3%;
     padding-top:3%;
-  }
+  } */
   p {
     margin:0px 0px 25px 0px;
     font-family: poppins;
@@ -98,13 +109,16 @@
     padding-top: 2px;
   }
 #container {
-  width: 75%;
+  width: 100%;
   margin: 50px auto;
   overflow: auto;
   padding: 0px;
+  text-align: center;
+  border: 2px solid red;
+
 }
-#box {
-  width: 15%;
+.box {
+  width: 20%;
   height: 200px;
   float: left;
   padding: 15px;
@@ -118,8 +132,8 @@
   display: inline-block;
   text-align: center;
 }
-#hbox {
-  text-align: center;
+.hbox {
+  /* text-align: center; */
 }
   /*Hasta aquí nuevo code*/
 .menu {
@@ -171,9 +185,47 @@ p {
   position: fixed;
   top: 0px;
 }
-/* CLASE 4 MEDIA DIMENSIONES PANTALLA*/
 
-  @media (min-width: 1200px) {
+.columns {
+  text-align: center;
+  overflow: auto;
+  clear: both;
+}
+
+.column {
+ width: 24%;
+ display: inline-block;
+ color: green;
+ border: 2px solid grey;
+ border-radius: 30px;
+ height: 300px;
+ overflow-y:hidden;
+}
+/* CLASE 4 MEDIA DIMENSIONES PANTALLA*/
+@media (max-width: 900px) {
+  .column {
+    width: 24%;
+  }
+  .box {
+    width: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .column {
+    width: 49%;
+  }
+  .box {
+    width: 40%
+  }
+}
+@media (max-width: 300px) {
+  .column .box{
+    width: 100%;
+  }
+}
+
+  /* @media (min-width: 1200px) {
     #box {
       width: 15%;
       float: left;
@@ -196,4 +248,4 @@ p {
       width: 100%;
       float: left;
     }
-  }
+  } */
