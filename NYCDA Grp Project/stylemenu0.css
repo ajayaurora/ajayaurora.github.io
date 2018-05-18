@@ -1,0 +1,199 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+#nav {
+  height: 120px;
+  width: 100%;
+  background-color: #fcfcfc;
+  padding-top: 0px;
+  padding-left: 0px;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 0px 10px 0px #babbbb;
+}
+#close {
+      position: relative;
+      top: -13px;
+      display: block;
+      height: 20px;
+      left: 37%;
+      padding: 50px;
+      display: inline-block;
+      font-size: 20px;
+      font-family: Roboto Slab;
+      color: #05709C;
+  }
+  #logo {
+    width: 75px;
+    margin-left: 150px;
+    padding-top: 40px;
+    position: relative;
+    display:inline-block;
+  }
+  #margenes {
+    width: 75%;
+    margin: auto;
+    padding:100px 150px 50px 150px;
+    overflow: auto;
+  }
+  #pedrosa {
+    width: 50%;
+    max-width: 50%;
+    float: left;
+    margin-right: 25px;
+  }
+  .nomargin {
+    clear:both;
+    margin-top: 50px;
+  }
+  .nomargindos {
+    clear:both;
+    margin-top: 20px;
+  }
+  #modulob {
+    width: 75%;
+    background-color: #ffffff;
+    margin: auto;
+    padding:200px 150px 50px 150px;
+    overflow: auto;
+  }
+#modulob .whalepic{
+    border-radius: 50%;
+  }
+  #fotodos {
+    width: 50%;
+    float: right;
+    margin-right: 0px;
+    padding-left: 3%;
+    padding-top:3%;
+  }
+  p {
+    margin:0px 0px 25px 0px;
+    font-family: poppins;
+    font-size: 14px;
+    color: #676767;
+  }
+  h1 {
+    font-family: Roboto slab;
+    color: #05709C;
+    font-size: 75px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font
+  }
+  h3 {
+    font-family: Roboto Slab;
+    color: #24A4C6;
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 2px;
+  }
+  h4 {
+    font-family: poppins;
+    color: #676767;
+    font-size: 17px;
+    padding-bottom: 20px;
+    padding-top: 2px;
+  }
+#container {
+  width: 75%;
+  margin: 50px auto;
+  overflow: auto;
+  padding: 0px;
+}
+#box {
+  width: 15%;
+  height: 200px;
+  float: left;
+  padding: 15px;
+  margin: 30px 23px 15px 40px;
+  font-family: poppins;
+  font-size: 14px;
+  color: #676767;
+  background-color: #fcfcfc;
+  box-shadow: 0px 0px 10px 0px #babbbb;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+}
+#hbox {
+  text-align: center;
+}
+  /*Hasta aquí nuevo code*/
+.menu {
+  background-color: #f9f9f9;
+  padding:40px;
+  font-size: 15px;
+  font-family: poppins;
+}
+#elements {
+  list-style: none;
+  color: #babbbb;
+  font-family: poppins;
+}
+ul li {
+  display: inline;
+  width: 100px;
+  padding: 50px;
+}
+a:link {
+  color:#05709C;
+}
+a{
+  color: #05709C;
+  text-decoration: none;
+}
+a:hover {
+  color: #24A4C6;
+  text-decoration: underline;
+}
+p {
+  margin:0px 0px 25px 0px;
+  font-family: poppins;
+}
+/* Clase 3 LAYOUT */
+
+#pedrosa {
+  width: 50%;
+  float: left;
+  margin-right: 25px;
+}
+
+
+/* Posicion fija y relativa */
+.posicionfija {
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  padding-top: 0px;
+  position: fixed;
+  top: 0px;
+}
+/* CLASE 4 MEDIA DIMENSIONES PANTALLA*/
+
+  @media (min-width: 1200px) {
+    #box {
+      width: 15%;
+      float: left;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+    #box {
+      width: 30%;
+      float: left;
+    }
+  }
+  @media (max-width: 767px) {
+    #box {
+      width: 40%;
+      float: left;
+    }
+  }
+  @media (max-width: 480px) {
+    #box {
+      width: 100%;
+      float: left;
+    }
+  }
