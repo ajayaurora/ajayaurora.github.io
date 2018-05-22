@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team Assignament</title>
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <div id="nav">
+        <a href="#"><img id="logo" src="logo.png" alt="Logo Momuu"></a>
+        <span id="close"><a href="donate.html">Save the Whales</a></span>
+        <span id="close"><a href="donate.html">DONATE</a></span>
+    </div>
+    <div class="main_wrapper">
+
+        <div class="form_wrapper">
+            <h1>Healthy Environment <br>For Self Esteem</h1>
+            <form id="donateForm">
+                <div class="column-6">
+                    <input type="text" name="zip">
+                    <label for="zip">ZIP / Postal Code</label>
+                </div>
+                <div class="column-6">
+                    <input type="number" name="country">
+                    <label for="country">Country</label>
+                </div>
+                <div class="column-6">
+                    <label for="donation-amount"></label>
+                    <input type="text" name="donation-amount">
+                </div>
+                <div class="column-12">
+                    <label for="note">Note: <br> <small>Add a note or designation to your donation</small></label>
+                    <textarea name="note"></textarea>
+                </div>
+                <div class="column-12">
+                    <label>Total</label>
+                    <p>$0.00</p>
+                </div>
+                <div class="column-12">
+                    <label>Credit Card</label>
+                    <ul>
+                        <li><img src="" alt=""></li>
+                    </ul>
+                </div>
+                <div class="column-12">
+                    <input type="text" id="cc" name="cc">
+                    <label for="cc">Card Number</label>
+                </div>
+                <div class="column-3">
+                    <select name="expiration-date" id="expiration-date">
+                        <option value="" selected disabled>Month</option>
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                    </select>
+                </div>
+                <div class="column-3">
+                    <select name="year" id="year">
+                        <option value="" selected disabled>Year</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                    </select>
+                </div>
+                <div class="column-3">
+                    <input type="text" id="sec-code" name="sec-code">
+                    <img src="" alt="">
+                    <label for="sec-code">Card Number</label>
+                </div>
+                <div class="column-12">
+                    <input type="text" id="cardholder-name" name="cardholder-name">
+                    <label for="cardholder-name">Cardholder Name</label>
+                </div>
+                <div class="column-12">
+                    <input type="submit" value="Submit" id="submitBtn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script>
+    $('#donateForm').submit(function(event){
+      event.preventDefault();
+      var cardHolder = $('#cardholder-name').val();
+
+      if(!cardHolder){
+        alert('Please enter your credit card information.');
+      } else{
+        alert('Thank you ' + cardHolder + ' for your donation.');
+      }
+    });
+    </script>
+</body>
+</html>
