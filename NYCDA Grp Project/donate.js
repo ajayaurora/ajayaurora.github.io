@@ -1,3 +1,9 @@
 $('.submitBtn').click(function(){
-  alert('Thank you for your Donation!!')
+  var cardHolder = $('#cardholder-name').val();
+
+  if(!cardHolder){
+    alert('Please enter your credit card information.');
+  } else{
+    alert('Thank you ' + cardHolder + ' for your donation.');
+  }
 });
