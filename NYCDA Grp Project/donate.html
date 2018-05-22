@@ -5,17 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Team Assignament</title>
     <link rel="stylesheet" href="donate.css">
-    <script>
-    $('#submitBtn').click(function(){
-      var cardHolder = $('#cardholder-name').val();
-
-      if(!cardHolder){
-        alert('Please enter your credit card information.');
-      } else{
-        alert('Thank you ' + cardHolder + ' for your donation.');
-      }
-    });
-    </script>
 </head>
 <body>
     <div id="nav">
@@ -27,7 +16,7 @@
 
         <div class="form_wrapper">
             <h1>Healthy Environment <br>For Self Esteem</h1>
-            <form action="POST">
+            <form id="donateForm">
                 <div class="column-6">
                     <input type="text" name="zip">
                     <label for="zip">ZIP / Postal Code</label>
@@ -100,5 +89,21 @@
             </form>
         </div>
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script>
+    $('#donateForm').submit(function(event){
+      event.preventDefault();
+      var cardHolder = $('#cardholder-name').val();
+
+      if(!cardHolder){
+        alert('Please enter your credit card information.');
+      } else{
+        alert('Thank you ' + cardHolder + ' for your donation.');
+      }
+    });
+    </script>
 </body>
 </html>
