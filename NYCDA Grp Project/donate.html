@@ -6,7 +6,7 @@
     <title>Team Assignament</title>
     <link rel="stylesheet" href="donate.css">
     <script>
-    $('.submitBtn').click(function(){
+    $('#submitBtn').click(function(){
       var cardHolder = $('#cardholder-name').val();
 
       if(!cardHolder){
@@ -95,7 +95,7 @@
                     <label for="cardholder-name">Cardholder Name</label>
                 </div>
                 <div class="column-12">
-                    <input type="submit" value="Submit" class="submitBtn">
+                    <input type="submit" value="Submit" id="submitBtn">
                 </div>
             </form>
         </div>
