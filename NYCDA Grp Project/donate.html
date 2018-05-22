@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Team Assignament</title>
     <link rel="stylesheet" href="donate.css">
-    <script src="donate.js" charset="utf-8"></script>
+    <script>
+    $('.submitBtn').click(function(){
+      var cardHolder = $('#cardholder-name').val();
+
+      if(!cardHolder){
+        alert('Please enter your credit card information.');
+      } else{
+        alert('Thank you ' + cardHolder + ' for your donation.');
+      }
+    });
+    </script>
 </head>
 <body>
     <div id="nav">
