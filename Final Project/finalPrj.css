@@ -70,10 +70,22 @@ body, html {
 #story h2{
   color: #FFFFFF;
   font-weight: 400;
+  text-decoration: underline;
+  text-align: left;
 }
 #story p {
   color: #FFFFFF;
   font-weight: 500;
+}
+#story .swipe{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 65px;
+}
+#story .swipe1{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 45px;
 }
 #story #propPic {
   width: 50%;
