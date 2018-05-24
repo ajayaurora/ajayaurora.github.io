@@ -75,3 +75,25 @@ body, html {
   color: #FFFFFF;
   font-weight: 500;
 }
+/* #proposal {
+  background: rgba(130,195,216,0.7);
+  font-weight: normal;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+#proposal h2{
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#proposal p {
+  color: #FFFFFF;
+  font-weight: 500;
+} */
+#story img {
+  width: 50%;
+  height: 375px;
+  display: inline-block;
+}
