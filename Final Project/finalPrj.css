@@ -25,7 +25,6 @@ body, html {
   margin: 0 auto;
   margin-top: 70px;
   position: relative;
-  text-align: center;
 }
 #about_name{
   font-family: 'Jenna Sue';
@@ -54,7 +53,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%); */
 }
-#story, #photo, #info, #sched, #reg {
+#story {
   background: rgba(130,195,216,0.7);
   font-weight: normal;
   width: 960px;
@@ -62,7 +61,7 @@ body, html {
   margin-top: 20px;
   position: relative;
   text-align: center;
-  display: none;
+  display:none;
 }
 #story h1 {
   color: #FFFFFF;
