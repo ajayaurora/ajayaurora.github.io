@@ -7,10 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="finalPrj.css">
   <link href="JennaSue.ttf" rel="stylesheet" type="text/font" media="screen">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="finalPrj.js" charset="utf-8"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -27,7 +23,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a class="indexBtn" href="index.html">Home</a></li>
-          <li><a class="storyBtn" href="story.html">Our Story</a></li>
+          <li><a class="storyBtn" href="#">Our Story</a></li>
           <li><a class="photoBtn" href="photos.html">Photos</a></li>
           <li><a class="infoBtn" href="info.html">Information</a></li>
           <li><a class="schedBtn" href="sched.html">Schedule</a></li>
@@ -36,45 +32,54 @@
       </div>
     </div>
   </nav>
-  <div id="container">
-    <div id="about" class="row">
-      <div class="col-12">
-        <h1 id="about_name">Roli & Ajay</h1>
-        <h2 id="about_date">August 18, 2018</h2>
-        <h3 id="about_location">Buffalo, New York</h3>
+  <div id="container-fluid">
+    <div class="row">
+      <div class="col">
+        <br>
+        <div id="about">
+          <h1 id="about_name">Roli & Ajay</h1>
+          <h2 id="about_date">August 18, 2018</h2>
+          <h3 id="about_location">Buffalo, New York</h3>
+        </div>
+        <!-- closing div for id-about -->
       </div>
     </div>
-    <!-- closing div for id-about -->
-    <div id="story" class="row">
-      <div class="col-12">
-        <h1>Our Story</h1>
-        <h2>How we met!!</h2>
-        <p class="swipe">
-          WE SWIPED RIGHT!!!
-        </p>
-        <p class="swipe1">
-          Yep!!! That's how it all started.
-        </p>
-        <p>
-          <img id="engage" src="montauk1.jpg" alt="">
-        </p>
-        <div class="col-12">
-          <h2>The Proposal</h2>
+    <div class="row">
+      <div class="col">
+        <div class="w-75 p-3" id="story">
+          <h1>Our Story</h1>
+          <h2>How we met!!</h2>
+          <p class="swipe">
+            WE SWIPED RIGHT!!!
+          </p>
+          <p class="swipe1">
+            Yep!!! That's how it all started.
+          </p>
+          <p>
+            <img id="engage" src="montauk1.jpg" alt="">
+          </p>
+          <div class="col">
+            <h2>The Proposal</h2>
+          </div>
+          <div class="col">
+            <img id="propPic" src="stoneprk1.jpg" alt="">
+            <p>Washington Park is where this new chapter begins.</p>
+            <img id="propPic" src="stoneprk3.jpg" alt="">
+            <p>Washington Park is where this new chapter begins.</p>
+            <img id="propPic" src="stoneprk4.jpg" alt="">
+            <p>Washington Park is where this new chapter begins.</p>
+            <img id="propPic" src="stoneprk2.jpg" alt="">
+            <p>Washington Park is where this new chapter begins.</p>
+          </div>
         </div>
-        <div class="col-12">
-          <img id="propPic" src="stoneprk1.jpg" alt="">
-          <p>Washington Park is where this new chapter begins.</p>
-          <img id="propPic" src="stoneprk3.jpg" alt="">
-          <p>Washington Park is where this new chapter begins.</p>
-          <img id="propPic" src="stoneprk4.jpg" alt="">
-          <p>Washington Park is where this new chapter begins.</p>
-          <img id="propPic" src="stoneprk2.jpg" alt="">
-          <p>Washington Park is where this new chapter begins.</p>
-        </div>
+        <!-- closing div for id-story -->
       </div>
     </div>
-    <!-- closing div for id-story -->
   </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="finalPrj.js" charset="utf-8"></script>
 </body>
 
 </html>

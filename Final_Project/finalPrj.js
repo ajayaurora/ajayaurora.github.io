@@ -1,16 +1,4 @@
-// $('.storyBtn').click(function(){
-//   var x = $('#story');
-//
-//   if (x.style.display === "none") {
-//       x.style.display = "block";
-//   } else {
-//       x.style.display = "none";
-//   }
-// });
-
-
-$('.storyBtn').click(function(){
-  $("#story").toggle("slow", function(){
-    
-  });
+$('.storyBtn').click(function(e){
+  e.preventDefault();
+  $("#story").toggle().fadeIn("slow");
 });
