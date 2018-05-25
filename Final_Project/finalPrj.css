@@ -24,7 +24,7 @@ body, html {
   width: 960px;
   margin: 0 auto;
   margin-top: 70px;
-  position: relative;
+  /* position: relative; */
   text-align: center;
 }
 #about_name{
@@ -59,8 +59,8 @@ body, html {
   font-weight: normal;
   width: 960px;
   margin: 0 auto;
-  margin-top: 20px;
-  position: relative;
+  /* margin-top: 20px; */
+  /* position: relative; */
   text-align: center;
   display: none;
 }
