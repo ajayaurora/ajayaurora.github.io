@@ -4,6 +4,7 @@ $('.storyBtn').click(function(e){
   $("#photo").hide();
   $("#info").hide();
   $("#sched").hide();
+  $('#reg').hide();
 });
 $('.photoBtn').click(function(e){
   e.preventDefault();
@@ -11,6 +12,7 @@ $('.photoBtn').click(function(e){
   $("#story").hide();
   $("#info").hide();
   $("#sched").hide();
+  $('#reg').hide();
 });
 $('.infoBtn').click(function(e){
   e.preventDefault();
@@ -18,6 +20,7 @@ $('.infoBtn').click(function(e){
   $("#story").hide();
   $("#photo").hide();
   $("#sched").hide();
+  $('#reg').hide();
 });
 $('.schedBtn').click(function(e){
   e.preventDefault();
@@ -25,6 +28,7 @@ $('.schedBtn').click(function(e){
   $("#story").hide();
   $("#photo").hide();
   $("#info").hide();
+  $('#reg').hide();
 });
 $('.regBtn').click(function(e){
   e.preventDefault();
