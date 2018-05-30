@@ -15,9 +15,7 @@ body, html {
     margin: 0;
 }
 
-#container{
 
-}
 #about {
   background: rgba(130,195,216,0.5);
   font-weight: normal;
@@ -89,12 +87,21 @@ body, html {
   font-weight: 500;
   font-size: 45px;
 }
+#story .propText{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 30px;
+}
 #story #propPic {
   width: 50%;
   height: 375px;
   display: inline-block;
 }
 #story #engage{
+  width: 300px;
+  height: 300px;
+}
+#photo img{
   width: 300px;
   height: 300px;
 }
