@@ -2,11 +2,37 @@ $('.storyBtn').click(function(e){
   e.preventDefault();
   $("#story").fadeToggle();
   $("#photo").hide();
+  $("#info").hide();
+  $("#sched").hide();
 });
 $('.photoBtn').click(function(e){
   e.preventDefault();
   $("#photo").fadeToggle();
   $("#story").hide();
+  $("#info").hide();
+  $("#sched").hide();
+});
+$('.infoBtn').click(function(e){
+  e.preventDefault();
+  $("#info").fadeToggle();
+  $("#story").hide();
+  $("#photo").hide();
+  $("#sched").hide();
+});
+$('.schedBtn').click(function(e){
+  e.preventDefault();
+  $("#sched").fadeToggle();
+  $("#story").hide();
+  $("#photo").hide();
+  $("#info").hide();
+});
+$('.regBtn').click(function(e){
+  e.preventDefault();
+  $("#reg").fadeToggle();
+  $("#story").hide();
+  $("#photo").hide();
+  $("#info").hide();
+  $("#sched").hide();
 });
 
 // $('.storyBtn').on('click',
@@ -28,17 +54,3 @@ $('.photoBtn').click(function(e){
 //     $('#story, #photo').toggle(200);
 //   }
 // );
-
-
-// $("#story").hide();
-// $("#photo").hide();
-//
-//
-// $(".storyBtn").click(function(){
-//     $("#story").toggle();
-//     $("#photo").hide();
-// });
-// $(".photoBtn").click(function(){
-//     $("#photo").toggle();
-//     $("#story").hide();
-// });

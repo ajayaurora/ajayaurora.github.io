@@ -22,35 +22,35 @@ body, html {
   width: 960px;
   margin: 0 auto;
   margin-top: 70px;
-  /* position: relative; */
+  position: relative;
   text-align: center;
 }
 #about_name{
   font-family: 'Jenna Sue';
   font-size: 67px;
   color: white;
-  /* position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+  /* position: absolute; */
+  /* top: 15%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 #about_date{
   font-family: 'Jenna Sue';
   font-size: 53px;
   color: white;
-  /* position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+  /* position: absolute; */
+  /* top: 25%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 #about_location{
   font-family: 'Jenna Sue';
   font-size: 40px;
   color: white;
-  /* position: absolute;
-  top: 32%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+  /* position: absolute; */
+  /* top: 32%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 #story, #photo, #info, #sched, #reg {
   background: rgba(130,195,216,0.7);
@@ -62,7 +62,7 @@ body, html {
   text-align: center;
   display: none;
 }
-#story h1 {
+#story h1, #photo h1, #info h1, #sched h1, #reg h1 {
   color: #FFFFFF;
   font-weight: 300;
 }
@@ -93,9 +93,9 @@ body, html {
   font-size: 30px;
 }
 #story #propPic {
-  width: 50%;
-  height: 375px;
-  display: inline-block;
+  width: 300px;
+  height: 300px;
+  /* display: inline-block; */
 }
 #story #engage{
   width: 300px;
