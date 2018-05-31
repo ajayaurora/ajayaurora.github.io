@@ -16,7 +16,12 @@ body, html {
 }
 @font-face {
   font-family: 'Jenna Sue';
-  src:url(JennaSue.ttf); 
+  src:url(JennaSue.ttf);
+}
+
+@font-face {
+  font-family: 'Dauphin-Normal';
+  src:url(DAUPHIN.ttf);
 }
 
 #about {
@@ -29,7 +34,7 @@ body, html {
   text-align: center;
 }
 #about_name{
-  font-family: 'Jenna Sue';
+  font-family: 'Dauphin-Normal', 'Jenna Sue';
   font-size: 80px;
   color: white;
   /* position: absolute; */
