@@ -14,7 +14,10 @@ body, html {
     height: 100%;
     margin: 0;
 }
-
+@font-face {
+  font-family: 'Jenna Sue';
+  src:url(/JennaSue.ttf); 
+}
 
 #about {
   background: rgba(130,195,216,0.5);
