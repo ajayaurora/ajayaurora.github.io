@@ -18,11 +18,22 @@ body, html {
   font-family: 'Jenna Sue';
   src:url(JennaSue.ttf);
 }
-
+@font-face {
+  font-family: 'Langdon';
+  src:url(Langdon.otf);
+}
+@font-face {
+  font-family: 'Nobile';
+  src:url(Nobile-Regular.ttf);
+}
+.row{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 #about {
   background: rgba(130,195,216,0.5);
   font-weight: normal;
-  width: 960px;
+  /* width: 960px; */
   margin: 0 auto;
   margin-top: 70px;
   position: relative;
@@ -67,7 +78,7 @@ body, html {
 #story, #photo, #info, #sched, #reg {
   background: rgba(130,195,216,0.7);
   font-weight: normal;
-  width: 960px;
+  /* width: 960px; */
   margin: 0 auto;
   /* margin-top: 20px; */
   /* position: relative; */
@@ -79,6 +90,7 @@ body, html {
   font-weight: 300;
 }
 #story h2{
+  font-family: 'Nobile';
   color: #FFFFFF;
   font-weight: 400;
   text-decoration: underline;
@@ -90,16 +102,19 @@ body, html {
   font-weight: 500;
 }
 #story .swipe{
+  font-family: 'Nobile';
   color: #FFFFFF;
   font-weight: 500;
   font-size: 65px;
 }
 #story .swipe1{
+  font-family: 'Nobile';
   color: #FFFFFF;
   font-weight: 500;
   font-size: 45px;
 }
 #story .propText{
+  font-family: 'Nobile';
   color: #FFFFFF;
   font-weight: 400;
   font-size: 30px;
@@ -107,7 +122,9 @@ body, html {
 #story #propPic {
   width: 300px;
   height: 300px;
-  /* display: inline-block; */
+  /* float:left;
+  clear:both;
+  display: inline-block; */
 }
 #story #engage{
   width: 300px;
