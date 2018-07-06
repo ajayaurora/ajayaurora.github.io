@@ -4,7 +4,7 @@ $('.storyBtn').click(function(e){
   $("#photo").hide();
   $("#info").hide();
   $("#sched").hide();
-  $('#reg').hide();
+  $("#reg").hide();
 });
 $('.photoBtn').click(function(e){
   e.preventDefault();
@@ -12,7 +12,7 @@ $('.photoBtn').click(function(e){
   $("#story").hide();
   $("#info").hide();
   $("#sched").hide();
-  $('#reg').hide();
+  $("#reg").hide();
 });
 $('.infoBtn').click(function(e){
   e.preventDefault();
@@ -20,7 +20,7 @@ $('.infoBtn').click(function(e){
   $("#story").hide();
   $("#photo").hide();
   $("#sched").hide();
-  $('#reg').hide();
+  $("#reg").hide();
 });
 $('.schedBtn').click(function(e){
   e.preventDefault();
@@ -28,7 +28,7 @@ $('.schedBtn').click(function(e){
   $("#story").hide();
   $("#photo").hide();
   $("#info").hide();
-  $('#reg').hide();
+  $("#reg").hide();
 });
 $('.regBtn').click(function(e){
   e.preventDefault();
@@ -37,6 +37,14 @@ $('.regBtn').click(function(e){
   $("#photo").hide();
   $("#info").hide();
   $("#sched").hide();
+});
+
+// Closes hamburger menu when a link is clicked
+$(".navbar-nav li a").click(function (event) {
+  var toggle = $(".navbar-collapse").hasClass("show");
+  if (toggle) {
+    $(".navbar-toggler").click();
+  }
 });
 
 // $('.storyBtn').on('click',

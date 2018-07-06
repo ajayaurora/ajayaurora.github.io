@@ -5,14 +5,16 @@
   <meta charset="utf-8">
   <title>RoliAjayWedding</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" href="finalPrj.css">
   <link href="JennaSue.ttf" rel="stylesheet" type="text/font" media="screen">
 </head>
 
 <body>
-
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid" style="background-color: lightblue;">
+<!-- Bootstrap 3 Nav -->
+  <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid" style="background-color: #b2f7b2;">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -32,21 +34,60 @@
         </ul>
       </div>
     </div>
+  </nav> -->
+
+<!-- Bootstrap 4 Nav -->
+
+  <nav class="navbar fixed-top navbar-expand-sm" style="background-color: #b2f7b2;">
+    <!-- <div class="container-fluid" style="background-color: #b2f7b2;"> -->
+      <!-- <div class="navbar-header"> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-bars" style="color: green;"></i>
+        </button>
+        <a href="index.html">
+        <img src="peacock2.png" alt="peacock" style="width:40px;height:40px;">
+        </a>
+        <div class="collapse navbar-collapse" id="nav-content">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="indexBtn nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link storyBtn" href="#">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="photoBtn nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="infoBtn nav-link" href="#">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="schedBtn nav-link" href="#">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="regBtn nav-link" href="#">Registry</a>
+            </li>
+          </ul>
+        </div>
+      <!-- </div> -->
+    <!-- </div> -->
   </nav>
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 offset-md-3">
+      <div class="col-md-12 offset-md">
         <div id="about">
           <h1 id="about_name">Roli & Ajay</h1>
           <h2 id="about_date">August 18, 2018</h2>
           <h3 id="about_location">Buffalo, New York</h3>
           <h4 id="about_hash">#ARstorybegins</h4>
-        </div><!-- closing div for id-about -->
+        </div>
+        <!-- closing div for id-about -->
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 offset-md-3">
+      <div class="col-md-12 offset-md">
         <div id="story">
           <h1>Our Story</h1>
           <h2>How we met</h2>
@@ -68,61 +109,70 @@
           <div class="col">
             <img id="propPic" src="stoneprk1.jpg" alt="">
             <p>Washington Park is where this new chapter begins.</p>
+          </div>
+          <div class="col">
             <img id="propPic" src="stoneprk3.jpg" alt="">
             <p>Washington Park is where this new chapter begins.</p>
           </div>
-        </div><!-- closing div for id-story -->
+        </div>
+        <!-- closing div for id-story -->
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 offset-md-3">
+      <div class="col-md-12 offset-md">
         <div id="photo">
           <h1>Photos</h1>
-            <ul>
-              <li>
-                <img src="peacock1.png" alt="">
-                <div class="caption">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-              </li>
-              <li>
-                <img src="peacock1.png" alt="">
-                <div class="caption">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-              </li>
-              <li>
-                <img src="peacock1.png" alt="">
-                <div class="caption">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-              </li>
-              <li>
-                <img src="peacock1.png" alt="">
-                <div class="caption">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-              </li>
-            </ul>
-        </div><!-- closing div for id-photo -->
+          <ul>
+            <li>
+              <img src="peacock1.png" alt="">
+              <div class="caption">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </li>
+            <li>
+              <img src="peacock1.png" alt="">
+              <div class="caption">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </li>
+            <li>
+              <img src="peacock1.png" alt="">
+              <div class="caption">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </li>
+            <li>
+              <img src="peacock1.png" alt="">
+              <div class="caption">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+        <!-- closing div for id-photo -->
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 offset-md-3">
+      <div class="col-md-12 offset-md">
         <div id="info">
           <h1>Information</h1>
-        </div><!-- closing div for id-info -->
+          <h2>Wedding Ceremonies</h2>
+          <p>There will be two wedding ceremonies, Sikh wedding and Hindu wedding.</p>
+        </div>
+        <!-- closing div for id-info -->
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 offset-md-3">
+      <div class="col-md-12 offset-md">
         <div id="sched">
           <h1>Schedule</h1>
-        </div><!-- closing div for id-sched -->
+        </div>
+        <!-- closing div for id-sched -->
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 offset-md-3">
+      <div class="col-md-12 offset-md">
         <div id="reg">
           <h1>Registry</h1>
           <ul>
@@ -139,14 +189,21 @@
             </li>
             <br>
           </ul>
-        </div><!-- closing div for id-reg -->
+        </div>
+        <!-- closing div for id-reg -->
       </div>
     </div>
   </div>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="finalPrj.js" charset="utf-8"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="finalPrj.js" charset="utf-8"></script>
 </body>
 
 </html>

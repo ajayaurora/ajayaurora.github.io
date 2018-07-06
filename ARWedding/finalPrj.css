@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   background-image: url("tail.jpg");
@@ -92,7 +93,7 @@ img{
   color: #FFFFFF;
   font-weight: 300;
 }
-#story h2{
+#story h2, #info h2{
   font-family: 'Nobile';
   color: #FFFFFF;
   font-weight: 400;
@@ -104,13 +105,13 @@ img{
   color: #FFFFFF;
   font-weight: 500;
 }
-#story .swipe{
+#story .swipe {
   font-family: 'Nobile';
   color: #FFFFFF;
   font-weight: 500;
   font-size: 40px;
 }
-#story .swipe1{
+#story .swipe1, #info p {
   font-family: 'Nobile';
   color: #FFFFFF;
   font-weight: 500;
@@ -127,12 +128,13 @@ img{
   height: 300px;
   /* float:left;
   clear:both;
-  display: inline-block; */
+  display: inline-flex; */
 }
 #story #engage{
   width: 300px;
   height: 300px;
 }
+
 #photo img{
   width: 300px;
   height: 300px;
