@@ -157,22 +157,26 @@ p{
   #home{
     background-color: orange;
     width: 100%;
-    padding-top: 120px
+    padding-top: 120px;
+    animation: none;
   }
   #about{
     background-color: lightgreen;
     width: 100%;
-    padding-top: 120px
+    padding-top: 120px;
+    animation: none;
   }
   #resume{
     background-color: lightblue;
     width: 100%;
-    padding-top: 120px
+    padding-top: 120px;
+    animation: none;
   }
   #projects{
     background-color: lightgrey;
     width: 100%;
-    padding-top: 120px
+    padding-top: 120px;
+    animation: none;
   }
   p{
     animation-name: text;
