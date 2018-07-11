@@ -4,18 +4,18 @@
   box-sizing: border-box;
 }
 nav {
-    text-align: center;
+    /* text-align: center; */
     background-color: cadetblue;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
 }
 
-nav ul {
+/* nav ul {
     margin: 0;
     padding: 0;
-}
+} */
 
 .nav-wrapper li {
     display: inline-block;
