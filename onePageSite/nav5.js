@@ -221,3 +221,11 @@
 	};
 
 })( jQuery, window , document );
+
+// Closes hamburger menu when a link is clicked
+$(".navbar-nav li a").click(function (event) {
+  var toggle = $(".navbar-collapse").hasClass("show");
+  if (toggle) {
+    $(".navbar-toggler").click();
+  }
+});
