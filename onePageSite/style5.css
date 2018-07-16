@@ -38,7 +38,7 @@ nav {
 
 img:hover{
   animation: shake 0.5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -54,6 +54,7 @@ img:hover{
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 p{
+  white-space: nowrap;
   animation-name: text;
   animation-duration: 10s;
   animation-timing-function: linear;
@@ -179,6 +180,7 @@ p{
     animation: none;
   }
   p{
+    white-space: nowrap;
     animation-name: text;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -189,6 +191,6 @@ p{
   }
   @keyframes text {
     0% {margin-left: 0%; margin-top: 0%;}
-    100% {margin-left: 77%; margin-top: 0%;}
+    100% {margin-left: 75%; margin-top: 0%;}
   }
 }
