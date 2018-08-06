@@ -61,7 +61,7 @@ baguetteBox.run('.tz-gallery', {
 });
 
 var movePixels = 5;
-var delayMs = 50;
+var delayMs = 75;
 function bhangraWalk() {
   var img = document.getElementsByClassName('bhangra')[0];
   var currentLeft = parseInt(img.style.left);
@@ -71,7 +71,7 @@ function bhangraWalk() {
   }
 }
 function startBhangraWalk() {
-  catTimer = window.setInterval(bhangraWalk, delayMs);
+  window.setInterval(bhangraWalk, delayMs);
 }
 startBhangraWalk();
 
