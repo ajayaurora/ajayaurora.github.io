@@ -62,7 +62,6 @@ baguetteBox.run('.tz-gallery', {
 
 var movePixels = 5;
 var delayMs = 50;
-var catTimer = null;
 function bhangraWalk() {
   var img = document.getElementsByClassName('bhangra')[0];
   var currentLeft = parseInt(img.style.left);
