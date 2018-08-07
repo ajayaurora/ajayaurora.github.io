@@ -171,11 +171,6 @@ body, html {
   border: 2px solid #b2f7b2!important;
   background-color: rgba(130,195,216,0.6)!important;
 }
-@media screen and (max-width:992px){
-
-body {background-size: contain;}
-
-}
 
 /* #photo img{
   width: 350px;
