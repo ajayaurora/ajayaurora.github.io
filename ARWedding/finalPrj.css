@@ -35,7 +35,8 @@ body, html {
   padding-right: 10%;
 }
 .bhangra{
-  margin-left: 15px;
+  position: absolute;
+  top: 500px;
   height: 150px;
   width: 100px;
 }
@@ -138,6 +139,15 @@ body, html {
 #story #engage{
   width: 300px;
   height: 300px;
+}
+
+#info ul{
+  font-family: 'Nobile';
+  color: #FFFFFF;
+  margin-left: 25px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
 }
 .figure-caption{
   font-size: 90%!important;
