@@ -1,6 +1,7 @@
 $('.storyBtn').click(function(e){
   e.preventDefault();
-  $("#story").fadeToggle();
+  // $("#story").fadeToggle();
+  $("#story").slideToggle();
   $("#photo").hide();
   $("#info").hide();
   $("#sched").hide();
@@ -9,7 +10,8 @@ $('.storyBtn').click(function(e){
 });
 $('.photoBtn').click(function(e){
   e.preventDefault();
-  $("#photo").fadeToggle();
+  // $("#photo").fadeToggle();
+  $("#photo").slideToggle();
   $("#story").hide();
   $("#info").hide();
   $("#sched").hide();
@@ -18,7 +20,8 @@ $('.photoBtn').click(function(e){
 });
 $('.infoBtn').click(function(e){
   e.preventDefault();
-  $("#info").fadeToggle();
+  // $("#info").fadeToggle();
+  $("#info").slideToggle();
   $("#story").hide();
   $("#photo").hide();
   $("#sched").hide();
@@ -27,7 +30,8 @@ $('.infoBtn').click(function(e){
 });
 $('.schedBtn').click(function(e){
   e.preventDefault();
-  $("#sched").fadeToggle();
+  // $("#sched").fadeToggle();
+  $("#sched").slideToggle();
   $("#story").hide();
   $("#photo").hide();
   $("#info").hide();
@@ -36,7 +40,8 @@ $('.schedBtn').click(function(e){
 });
 $('.regBtn').click(function(e){
   e.preventDefault();
-  $("#reg").fadeToggle();
+  // $("#reg").fadeToggle();
+  $("#reg").slideToggle();
   $("#story").hide();
   $("#photo").hide();
   $("#info").hide();
