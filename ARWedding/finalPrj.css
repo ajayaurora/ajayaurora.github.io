@@ -86,7 +86,7 @@ body, html {
   /* transform: translate(-50%, -50%); */
 }
 #story, #photo, #info, #sched, #reg {
-  background: rgba(130,195,216,0.7);
+  background: rgba(130,195,216,0.6);
   font-weight: normal;
   /* width: 960px; */
   margin: 0 auto;
@@ -99,7 +99,7 @@ body, html {
   color: #FFFFFF;
   font-weight: 300;
 }
-#story h2, #info h2{
+#story h2, #info h2, #sched h2{
   font-family: 'Nobile';
   color: #FFFFFF;
   font-weight: 400;
@@ -146,6 +146,19 @@ body, html {
   color: #FFFFFF;
   margin-left: 25px;
   text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#sched h4{
+  font-family: 'Nobile';
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+#sched p{
+  font-family: 'Nobile';
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 20px;
 }
