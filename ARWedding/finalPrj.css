@@ -169,7 +169,7 @@ body, html {
 }
 .img-thumbnail{
   border: 2px solid #b2f7b2!important;
-  background-color: rgba(130,195,216,0.7)!important;
+  background-color: rgba(130,195,216,0.6)!important;
 }
 
 /* #photo img{
