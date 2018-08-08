@@ -1,17 +1,37 @@
+var display = false;
+
 $('.storyBtn').click(function(e){
   e.preventDefault();
-  // $("#story").fadeToggle();
-  $("#story").slideToggle();
+  $("#story").fadeToggle(function(){
+    // var img1 = document.getElementsByClassName('bhangra')[0];
+    $('html, body').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+    // if(display !== true){
+    //   display = true;
+    // } else {
+    //   display = false;
+    //   img.style.left = "0px";
+    //   startBhangraWalk();
+    //   alert('boo')
+    // }
+  });
   $("#photo").hide();
   $("#info").hide();
   $("#sched").hide();
   $("#reg").hide();
   $(".bhangra").hide();
+  $()
 });
 $('.photoBtn').click(function(e){
   e.preventDefault();
-  // $("#photo").fadeToggle();
-  $("#photo").slideToggle();
+  $("#photo").fadeToggle(function(){
+    $('html, body').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
   $("#story").hide();
   $("#info").hide();
   $("#sched").hide();
@@ -20,8 +40,12 @@ $('.photoBtn').click(function(e){
 });
 $('.infoBtn').click(function(e){
   e.preventDefault();
-  // $("#info").fadeToggle();
-  $("#info").slideToggle();
+  $("#info").fadeToggle(function(){
+    $('html, body').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
   $("#story").hide();
   $("#photo").hide();
   $("#sched").hide();
@@ -30,8 +54,12 @@ $('.infoBtn').click(function(e){
 });
 $('.schedBtn').click(function(e){
   e.preventDefault();
-  // $("#sched").fadeToggle();
-  $("#sched").slideToggle();
+  $("#sched").fadeToggle(function(){
+  $('html, body').animate({
+    scrollTop: 0
+  }, 800);
+  return false;
+});
   $("#story").hide();
   $("#photo").hide();
   $("#info").hide();
@@ -40,8 +68,12 @@ $('.schedBtn').click(function(e){
 });
 $('.regBtn').click(function(e){
   e.preventDefault();
-  // $("#reg").fadeToggle();
-  $("#reg").slideToggle();
+  $("#reg").fadeToggle(function(){
+    $('html, body').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
   $("#story").hide();
   $("#photo").hide();
   $("#info").hide();
