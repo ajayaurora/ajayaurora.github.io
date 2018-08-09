@@ -1,4 +1,4 @@
-var display = false;
+// var display = false;
 
 $('.storyBtn').click(function(e){
   e.preventDefault();
